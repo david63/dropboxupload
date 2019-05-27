@@ -45,7 +45,7 @@ class listener implements EventSubscriberInterface
 	* @param \phpbb\config\config		$config		phpBB config
 	* @param \phpbb\user				$user		User object
 	* @param \phpbb\log\log				$log		phpBB log
-	* @param phpbb\language\language	$language	Language object
+	* @param \phpbb\language\language	$language	Language object
 	*
 	* @access public
 	*/
