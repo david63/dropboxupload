@@ -51,7 +51,7 @@ global $ver_error, $db_error;
 if ($ver_error)
 {
 	$lang = array_merge($lang, array(
-		'EXTENSION_NOT_ENABLEABLE' 		=> isset($lang['EXTENSION_NOT_ENABLEABLE']) ? $lang['EXTENSION_NOT_ENABLEABLE'] . '<br /><br /><strong>' . $lang['EXT_ENABLE_ERROR'] . '</strong>' : null,
+		'EXTENSION_NOT_ENABLEABLE' 		=> isset($lang['EXTENSION_NOT_ENABLEABLE']) ? $lang['EXTENSION_NOT_ENABLEABLE'] . '<br><br><strong>' . $lang['EXT_ENABLE_ERROR'] . '</strong>' : null,
 		'CLI_EXTENSION_ENABLE_FAILURE' 	=> isset($lang['CLI_EXTENSION_ENABLE_FAILURE']) ? $lang['CLI_EXTENSION_ENABLE_FAILURE'] . ' : ' . $lang['EXT_ENABLE_ERROR'] : null,
 	));
 }
@@ -59,7 +59,7 @@ if ($ver_error)
 if ($db_error)
 {
 	$lang = array_merge($lang, array(
-		'EXTENSION_NOT_ENABLEABLE' 		=> isset($lang['EXTENSION_NOT_ENABLEABLE']) ? $lang['EXTENSION_NOT_ENABLEABLE'] . '<br /><br /><strong>' . $lang['NO_AUTO_DB_BACKUP'] . '</strong>' : null,
+		'EXTENSION_NOT_ENABLEABLE' 		=> isset($lang['EXTENSION_NOT_ENABLEABLE']) ? $lang['EXTENSION_NOT_ENABLEABLE'] . '<br><br><strong>' . $lang['NO_AUTO_DB_BACKUP'] . '</strong>' : null,
 		'CLI_EXTENSION_ENABLE_FAILURE' 	=> isset($lang['CLI_EXTENSION_ENABLE_FAILURE']) ? $lang['CLI_EXTENSION_ENABLE_FAILURE'] . ' - ' . $lang['NO_AUTO_DB_BACKUP'] : null,
 	));
 }

@@ -2,7 +2,7 @@
 	"name": "david63/dropboxupload",
 	"type": "phpbb-extension",
 	"description": "Extends autobackup to allow the copying of the backup file to your Dropbox account.",
-	"version": "2.1.0-rc2",
+	"version": "2.1.0-RC3",
 	"time": "2019-05-11",
 	"keywords": [
 		"phpbb",

@@ -18,3 +18,9 @@ services:
             - '@user'
             - '@language'
             - '@log'
+            - '@david63.dropboxupload.core.functions'
+
+    david63.dropboxupload.core.functions:
+        class: david63\dropboxupload\core\functions
+        arguments:
+            - '@ext.manager'
