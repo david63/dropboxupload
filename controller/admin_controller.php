@@ -81,7 +81,7 @@ class admin_controller implements admin_interface
 	{
 
 		// Add the language file
-		$this->language->add_lang('acp_dropboxupload', 'david63/dropboxupload');
+		$this->language->add_lang('acp_dropboxupload', $this->functions->get_ext_namespace());
 
 		// Create a form key for preventing CSRF attacks
 		$form_key = 'dropboxupload_manage';

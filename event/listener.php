@@ -92,12 +92,12 @@ class listener implements EventSubscriberInterface
 			if (file_exists($backup_file))
 			{
 				// Update the frequency count for this run
-				$this->config->set('dropbox_frequency_count', $this->config['dropbox_frequency_count'] + 1);
+				$this->config->set('dropbox_frequency_count', $this->config['dropbox_frequency_count'] + 1, false);
 
 				if ($this->config['dropbox_frequency_count'] >= $this->config['dropbox_frequency_interval'])
 				{
 					// Reset the frequency count to zero
-					$this->config->set('dropbox_frequency_count', 0);
+					$this->config->set('dropbox_frequency_count', 0, false);
 
 					// Add the language file
 					$this->language->add_lang('dropboxupload', 'david63/dropboxupload');
