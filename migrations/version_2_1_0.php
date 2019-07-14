@@ -18,7 +18,7 @@ class version_2_1_0 extends migration
 		return array(
 			array('config.add', array('dropbox_folder', '')),
 			array('config.add', array('dropbox_folder_opt', 'DEFAULT')),
-			array('config.add', array('dropbox_frequency_count', 0)),
+			array('config.add', array('dropbox_frequency_count', 0, 1)),
 			array('config.add', array('dropbox_frequency_interval', 1)),
 			array('config.add', array('dropbox_key', '')),
 			array('config.add', array('dropbox_secret', '')),
