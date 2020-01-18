@@ -28,14 +28,15 @@
 		"kunalvarma05/dropbox-php-sdk": "^0.2.1"
     },
 	"extra": {
-		"display-name": "[*] Dropbox upload for autobackup",
+		"display-name": "[**] Dropbox upload for autobackup",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.2.0"
       	},
 		"version-check": {
         	"host": "version.phpbbdev.space",
-        	"directory": "/3.2",
-        	"filename": "/dropbox_upload_version_file.json"
+        	"directory": "/versions",
+        	"filename": "dropbox_upload_version_file.json",
+			"ssl": false
     	}
 	}
 }
