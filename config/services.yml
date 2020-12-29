@@ -31,3 +31,6 @@ services:
         class: david63\dropboxupload\core\functions
         arguments:
             - '@ext.manager'
+
+    _defaults:
+        public: true

@@ -2,12 +2,16 @@
 
 Extends autobackup to allow the copying of the backup file to your Dropbox account.
 
-[![Build Status](https://travis-ci.com/david63/dropboxupload.svg?branch=master)](https://travis-ci.com/david63/dropboxupload)
+[![Build Status](https://github.com/david63/dropboxupload/workflows/Tests/badge.svg)](https://github.com/phpbb-extensions/david63/dropboxupload)
 [![License](https://poser.pugx.org/david63/dropboxupload/license)](https://packagist.org/packages/david63/dropboxupload)
 [![Latest Stable Version](https://poser.pugx.org/david63/dropboxupload/v/stable)](https://packagist.org/packages/david63/dropboxupload)
 [![Latest Unstable Version](https://poser.pugx.org/david63/dropboxupload/v/unstable)](https://packagist.org/packages/david63/dropboxupload)
 [![Total Downloads](https://poser.pugx.org/david63/dropboxupload/downloads)](https://packagist.org/packages/david63/dropboxupload)
+[![codecov](https://codecov.io/gh/david63/dropboxupload/branch/master/graph/badge.svg?token=D2500PgRex)](https://codecov.io/gh/david63/dropboxupload)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c5e05eb52faa4b0fa40e2a32d2110685)](https://www.codacy.com/manual/david63/dropboxupload?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/dropboxupload&amp;utm_campaign=Badge_Grade)
+
+ [![Compatible](https://img.shields.io/badge/compatible-phpBB:3.2.x-blue.svg)](https://shields.io/)
+ [![Compatible](https://img.shields.io/badge/compatible-phpBB:3.3.x-blue.svg)](https://shields.io/)
 
 ## Minimum Requirements
 * phpBB 3.2.0
