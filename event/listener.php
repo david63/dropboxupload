@@ -25,14 +25,14 @@ class listener implements EventSubscriberInterface
 	/** @var config */
 	protected $config;
 
-	/** @var \david63\dropboxupload\controller\main_controller */
+	/** @var main_controller */
 	protected $processuploadt;
 
 	/**
 	 * Constructor for listener
 	 *
-	 * @param config                             $config             phpBB config
-	 * @param \david63\dropboxupload\controller\main_controller  $main_controller    Main controller
+	 * @param config			$config             phpBB config
+	 * @param main_controller	$main_controller    Main controller
 	 *
 	 * @access public
 	 */
